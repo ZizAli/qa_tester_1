@@ -36,3 +36,11 @@
 //            System.out.println(Arrays.deepTostring(deyerler[0]+deyerler[4]));
 //  }
 // }
+//Tapsiriq 4
+class Main {
+
+    public static void main(String[] args) {
+        String[] ad_soyad = {"Aziza", "Aliyeva"};
+        System.out.println(ad_soyad[0]+ " "+ ad_soyad[1]);
+    }
+}
