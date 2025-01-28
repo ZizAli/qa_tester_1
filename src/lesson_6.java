@@ -54,20 +54,29 @@
 //Tapşırığı minimum 2 fərqli yolla e
 //public class lesson_6 {
 //    public static void main(String[] args) {
-//        int r = 115;
-//        int e =120;
-//        System.out.println(r + ""  + e);
-//
+//        int reqem = 115;
+//        int eded =120;
+//        System.out.println(reqem + ""  + eded);
+//          /// netice; 115120
+//    }
+//}
+
+//public class lesson_6 {
+//    public static void main(String[] args) {
+//        int number1 = 250;
+//        int number2 = 45;
+//        System.out.println(number1 + " " + number2);
+//     //netice: 250 45
 //    }
 //}
 
     //Tapsiriq 6
-public class lesson_6 {
-    public static void main(String[] args) {
-        int yash = 35;
-        String ad = "Ali Aliyev";
-        System.out.println("Salam, menim adim" + " " + ad + " " + "ve menim" + " " + yash + " "+ "yashim var.");
-//netice: Salam, menim adim Ali Aliyev ve menim 35 yashim var.
-    }
-
-}
+//public class lesson_6 {
+//    public static void main(String[] args) {
+//        int yash = 35;
+//        String ad = "Ali Aliyev";
+//        System.out.println("Salam, menim adim" + " " + ad + " " + "ve menim" + " " + yash + " "+ "yashim var.");
+////netice: Salam, menim adim Ali Aliyev ve menim 35 yashim var.
+//    }
+//
+//}
