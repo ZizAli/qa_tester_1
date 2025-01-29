@@ -71,21 +71,21 @@
 //}
 
     //Tapsiriq 6
-//public class lesson_6 {
-//    public static void main(String[] args) {
-//        int yash = 35;
-//        String ad = "Ali Aliyev";
-//        System.out.println("Salam, menim adim" + " " + ad + " " + "ve menim" + " " + yash + " "+ "yashim var.");
-////netice: Salam, menim adim Ali Aliyev ve menim 35 yashim var.
-//    }
-//
-//}
-
 public class lesson_6 {
     public static void main(String[] args) {
-        int number1 = 23;
-        int number2 = 98;
-        System.out.println(number2 + "" + number1);
-     //netice: 9823
+        int yash = 35;
+        String ad = "Ali Aliyev";
+        System.out.println("Salam, menim adim " +  ad + " ve menim " + yash + " yashim var.");
+//netice: Salam, menim adim Ali Aliyev ve menim 35 yashim var.
     }
+
 }
+
+//public class lesson_6 {
+//    public static void main(String[] args) {
+//        int number1 = 23;
+//        int number2 = 98;
+//        System.out.println(number2 + "" + number1);
+//     //netice: 9823
+//    }
+//}
