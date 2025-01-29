@@ -80,3 +80,12 @@
 //    }
 //
 //}
+
+public class lesson_6 {
+    public static void main(String[] args) {
+        int number1 = 23;
+        int number2 = 98;
+        System.out.println(number2 + "" + number1);
+     //netice: 9823
+    }
+}
