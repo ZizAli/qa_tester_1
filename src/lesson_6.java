@@ -88,6 +88,6 @@ public class lesson_6 {
        int k=n+1;
        int y= m+5;
         System.out.println(k+ " "+y);
-     //netice: 250 45
+     //netice: 251 50
     }
 }
