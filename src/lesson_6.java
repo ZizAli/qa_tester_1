@@ -83,11 +83,11 @@
 
 public class lesson_6 {
     public static void main(String[] args) {
-        int n = 250;
-        int m = 45;
-       int k=n+1;
-       int y= m+5;
-        System.out.println(k+ " "+y);
-     //netice: 251 50
+//        int n = 250;
+//        int m = 45;
+//       int k=n+1;
+//       int y= m+5;
+//        System.out.println(k+ " "+y);
+//     //netice: 251 50
     }
 }

@@ -22,26 +22,45 @@ public class day_7 {
 //
 
 
-        String aylar ="Yanvar";
-//        "Fevral, "Mart", "Aprel", "May", "Iyun", "Iyul", "Avgust", "September", "October", "November", "December";
+//        String aylar ="Yanvar";
+////        "Fevral, "Mart", "Aprel", "May", "Iyun", "Iyul", "Avgust", "September", "October", "November", "December";
+//
+//            if(aylar== "Dekabr" || aylar== "Yanvar" || aylar=="Fevral"){
+//                System.out.println("Qish fesili");
+//            } else if (aylar=="Mart" || aylar=="Aprel" || aylar== "May") {
+//                System.out.println("Yaz Fesilidir");
+//            } else if (aylar=="Iyun"  || aylar== "Iyul" || aylar== "August") {
+//                System.out.println("Yay Fesilidir");
+//            }
+//            else if (aylar=="Sentyabr" || aylar=="Octyabr" || aylar=="Noyabr"){
+//                System.out.println("Payiz Fesilidir");
+//            }
+//            else {
+//                System.out.println( "Elave etdiyiniz melumat sehvdir");
+//            }
+//
+//        String aylar = "May";
+//        switch (aylar){
+//            case "Yanvar":{
+//                System.out.println("Qish fesli");
+//                break;}
+//            default:
+//                System.out.println("Daxil etdiyiniz melumat  yanlisdir");
+//                break;}
 
-            if(aylar== "Dekabr" || aylar== "Yanvar" || aylar=="Fevral"){
-                System.out.println("Qish fesili");
-            } else if (aylar=="Mart" || aylar=="Aprel" || aylar== "May") {
-                System.out.println("Yaz Fesilidir");
-            } else if (aylar=="Iyun"  || aylar== "Iyul" || aylar== "August") {
-                System.out.println("Yay Fesilidir");
-            }
-            else if (aylar=="Sentyabr" || aylar=="Octyabr" || aylar=="Noyabr"){
-                System.out.println("Payiz Fesilidir");
-            }
-            else {
-                System.out.println( "Elave etdiyiniz melumat sehvdir");
-            }
+
+        int a =5; //Factorial
+        int b=1;
+        for(int i=1; i<=a; i++){
+            b*=i;
+            System.out.println(b + " cavab 5!" );
+        }
 
 
+
+        }
     }
-}
+
 
 
 //TAPSHIRIQ
