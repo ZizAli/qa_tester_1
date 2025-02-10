@@ -48,18 +48,18 @@ public class day_7 {
 //                System.out.println("Daxil etdiyiniz melumat  yanlisdir");
 //                break;}
 
-
-        int a =5; //Factorial
-        int b=1;
-        for(int i=1; i<=a; i++){
-            b*=i;
-            System.out.println(b + " cavab 5!" );
-        }
-
-
-
-        }
-    }
+//
+//        int a =5; //Factorial
+//        int b=1;
+//        for(int i=1; i<=a; i++){
+//            b*=i;
+//            System.out.println(b + " cavab 5!" );
+//        }
+//
+//
+//
+ }
+}
 
 
 
