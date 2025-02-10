@@ -62,20 +62,25 @@
 //}
 
 
-//   public class day_8 {
-//       public static void main(String[] args) {
-//           int[] a={5,9,23,78,90,3,64,12,5,9,90,5,3,9};
-//           for(int i = 0; i < a.length; i ++){
-//               for(int j =i+1; j<a.length; j++){
-//                   if(a[i]==a[j]){
-//                       System.out.println(a[i]);
-//                   }
-//               }
-//           }
-//       }
-//
-//
-//       }
+   public class day_8 {
+       public static void main(String[] args) {
+           int[] a={5,9,23,78,90,3,64,12,5,9,90,5,3,9};
+           for(int i = 0; i < a.length; i ++){
+               boolean a_duplic = false;
+               for(int j =i+1; j<a.length; j++){
+                   if(a[i]==a[j]){
+                       a_duplic = true;
+                       break;
+                   }
+               }
+               if (a_duplic){
+                   System.out.println(a[i] + " bu eded tekrarlandi");
+               }
+           }
+       }
+
+
+       }
 
 //OOP TASKS
 //public class day_8 {
@@ -163,41 +168,41 @@
 //    }
 //}
 
-public class day_8 {
-    public static void main(String[] args) {
-        class NewPaltar {
-            int sayi;
-            String material;
-            String dizayn;
-            String forma;
-            String reng;
-        }
-//        NewPaltar paltar1 = new NewPaltar();
-//        paltar1 .sayi =2;
-//        paltar1.material = "Ipek";
-//        paltar1.forma = "Kostyum";
-//        paltar1.reng = "Yasil";
+//public class day_8 {
+//    public static void main(String[] args) {
+//        class NewPaltar {
+//            int sayi;
+//            String material;
+//            String dizayn;
+//            String forma;
+//            String reng;
+//        }
+////        NewPaltar paltar1 = new NewPaltar();
+////        paltar1 .sayi =2;
+////        paltar1.material = "Ipek";
+////        paltar1.forma = "Kostyum";
+////        paltar1.reng = "Yasil";
+////
+////        System.out.println(paltar1.sayi);
+////        System.out.println(paltar1.dizayn);
+////        System.out.println(paltar1.material);
+////        System.out.println(paltar1.forma);
+////
 //
-//        System.out.println(paltar1.sayi);
-//        System.out.println(paltar1.dizayn);
-//        System.out.println(paltar1.material);
-//        System.out.println(paltar1.forma);
+//        NewPaltar paltar2 = new NewPaltar();
+//        paltar2 .sayi =2;
+//        paltar2.material = "Spatel";
+//        paltar2.forma = "Platya";
+//        paltar2.reng = "Ag";
+//        paltar2.dizayn = "casual";
 //
-
-        NewPaltar paltar2 = new NewPaltar();
-        paltar2 .sayi =2;
-        paltar2.material = "Spatel";
-        paltar2.forma = "Platya";
-        paltar2.reng = "Ag";
-        paltar2.dizayn = "casual";
-
-        System.out.println(paltar2.sayi);
-        System.out.println(paltar2.dizayn);
-        System.out.println(paltar2.material);
-        System.out.println(paltar2.forma);
-        System.out.println(paltar2.dizayn);
-
-    }
-}
-
+//        System.out.println(paltar2.sayi);
+//        System.out.println(paltar2.dizayn);
+//        System.out.println(paltar2.material);
+//        System.out.println(paltar2.forma);
+//        System.out.println(paltar2.dizayn);
+//
+//    }
+//}
+//
 
