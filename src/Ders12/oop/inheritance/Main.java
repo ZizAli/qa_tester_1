@@ -10,8 +10,6 @@ public class Main {
         b1.audit();
         b1.levazimat();
 
-
-
         }
         }
 
