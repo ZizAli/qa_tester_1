@@ -61,7 +61,7 @@
 //    }
 //}
 
-
+//
 //   public class day_8 {
 //       public static void main(String[] args) {
 //           int[] a={5,9,23,78,90,3,64,12,5,9,90,5,3,9};
@@ -79,12 +79,10 @@
 //           }
 //       }
 //
-//
 //       }
 public class day_8 {
     public static void main(String[] args) {
-        int[] a = {1, 2, 3, 4, 2, 5, 6, 3, 7, 1, 4, 6};
-
+        int[] a = {1, 1, 1, 2, 3, 4, 2, 5, 6, 3, 7, 1, 4, 6};
         for (int i = 0; i < a.length - 1; i++) {
             for (int j = i + 1; j < a.length; j++) {
                 if (a[i] == a[j]) {
@@ -100,6 +98,8 @@ public class day_8 {
 //public class day_8 {
 //    public static void main(String[] args) {
 //        class NewCar {
+
+
 //            int say;
 //            String ad;
 //            String reng;            // masinin rengi
