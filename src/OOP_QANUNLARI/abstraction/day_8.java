@@ -1,4 +1,6 @@
-//public class day_8 {
+package OOP_QANUNLARI.abstraction;
+
+//public class OOP_QANUNLARI.abstraction.day_8 {
 //    public static void main(String[] args) {
 //
 //        int[] a = {5,9,23,78,90,3,64};
@@ -21,7 +23,7 @@
 //            }
 //        }
 
-//public class day_8 {
+//public class OOP_QANUNLARI.abstraction.day_8 {
 //    public static void main(String[] args) {
 //
 //        int[] a = {5, 9, 23, 78, 90, 3, 64};
@@ -43,7 +45,7 @@
 //    }
 //}
 
-//public class day_8 {
+//public class OOP_QANUNLARI.abstraction.day_8 {
 //    public static void main(String[] args) {
 //       int[] num= {8, 90, 87, 6, 4, 78, 998} ;
 //       int max = num[0];
@@ -62,7 +64,7 @@
 //}
 
 //
-//   public class day_8 {
+//   public class OOP_QANUNLARI.abstraction.day_8 {
 //       public static void main(String[] args) {
 //           int[] a={5,9,23,78,90,3,64,12,5,9,90,5,3,9};
 //           for(int i = 0; i < a.length; i ++){
@@ -95,7 +97,7 @@ public class day_8 {
 
 
 //OOP TASKS
-//public class day_8 {
+//public class OOP_QANUNLARI.abstraction.day_8 {
 //    public static void main(String[] args) {
 //        class NewCar {
 
@@ -157,7 +159,7 @@ public class day_8 {
 //        }
 //}
 
-//public class day_8 {
+//public class OOP_QANUNLARI.abstraction.day_8 {
 //    public static void main(String[] args) {
 //        class NewBuldig {
 //            int mertebe_sayi;
@@ -182,7 +184,7 @@ public class day_8 {
 //    }
 //}
 
-//public class day_8 {
+//public class OOP_QANUNLARI.abstraction.day_8 {
 //    public static void main(String[] args) {
 //        class NewPaltar {
 //            int sayi;

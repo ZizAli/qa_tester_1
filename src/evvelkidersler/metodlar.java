@@ -1,3 +1,5 @@
+package evvelkidersler;
+
 public class metodlar {
     public static void main(String[] args) {
     }
