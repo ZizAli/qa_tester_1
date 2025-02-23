@@ -1,7 +1,7 @@
-package Ders12.oop.inheritance;
+package OOP_QANUNLARI.inheritance;
 
-public class baxca extends mekteb{
-    int yash = 3;
+public class baxca extends TehsilNazirliyi{
+    final double MINYASH = 1.5;
     final int MAXBAXCA_YASHI = 6;
 
 

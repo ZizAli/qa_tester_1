@@ -1,4 +1,4 @@
-//public class lesson_6 {
+package evvelkidersler;//public class evvelkidersler.lesson_6 {
 //    public static void main(String[] args) {
 //        //TAPSIRIQ-2
 //       int a = 15;
@@ -30,14 +30,14 @@
 //        }
 //                }
 //        //tapsiriq 3-u yazanda pront ederken Array.deepToString yazanda error oldu
-//        public class lesson_6 {
+//        public class evvelkidersler.lesson_6 {
 //        public static void main(String[] args) {
 //            int [] deyerler = {10,20,30,40,50};
 //            System.out.println(Arrays.deepTostring(deyerler[0]+deyerler[4]));
 //  }
 // }
 //Tapsiriq 4
-//class Main {
+//class evvelkidersler.objectclass.Main {
 //
 //    public static void main(String[] args) {
 ////        String[] ad_soyad = {"Aziza", "Aliyeva"};
@@ -52,7 +52,7 @@
     //Tapsiriq 5 1: 2 ədəd int typeda dəyişən yarat 2. ekranda onların dəyərlərinin bir birilə dəyişmiş formasını göstər Məsələn a=5 b=6 sout(a,b) ekranda 6 5 göstərsin
 //
 //Tapşırığı minimum 2 fərqli yolla e
-//public class lesson_6 {
+//public class evvelkidersler.lesson_6 {
 //    public static void main(String[] args) {
 //        int reqem = 115;
 //        int eded =120;
@@ -61,7 +61,7 @@
 //    }
 //}
 
-//public class lesson_6 {
+//public class evvelkidersler.lesson_6 {
 //    public static void main(String[] args) {
 //        int number1 = 250;
 //        int number2 = 45;
@@ -71,7 +71,7 @@
 //}
 
 //    //Tapsiriq 6
-//public class lesson_6 {
+//public class evvelkidersler.lesson_6 {
 //    public static void main(String[] args) {
 //        int yash = 35;
 //        String ad = "Ali Aliyev";

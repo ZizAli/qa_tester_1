@@ -1,4 +1,4 @@
-package Ders12.oop.encapsulation;
+package OOP_QANUNLARI.encapsulation;
 
 // Static- clasin qarsinisda, static- variablin qarsisinda, final - variablen qarsisinda; final tipini yazanda o deyismez qalir ve onun qarsisindaki variable yaxsi olar ki boyuk herfle yazaq
 

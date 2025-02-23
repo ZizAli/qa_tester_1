@@ -1,6 +1,6 @@
+package evvelkidersler;
 
-
-//public class Main {
+//public class evvelkidersler.objectclass.Main {
 //    public static void main(String[] args) {
 //        //TAPSIRIQ-2
 //       int a = 15;
@@ -32,7 +32,7 @@
 //        }
 //                }
 //        //tapsiriq 3-u yazanda pront ederken Array.deepToString yazanda error oldu
-//        public class lesson_6 {
+//        public class evvelkidersler.lesson_6 {
 //        public static void main(String[] args) {
 //            int [] deyerler = {10,20,30,40,50};
 //            System.out.println(Arrays.deepTostring(deyerler[0]+deyerler[4]));
