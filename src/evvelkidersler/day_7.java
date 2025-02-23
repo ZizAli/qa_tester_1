@@ -1,3 +1,5 @@
+package evvelkidersler;
+
 public class day_7 {
     public static void main(String[] args) {
 

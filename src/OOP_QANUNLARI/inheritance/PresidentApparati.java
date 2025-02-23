@@ -1,6 +1,6 @@
-package Ders12.oop.inheritance;
+package OOP_QANUNLARI.inheritance;
 
-public class PresidentApparati {
+public abstract class PresidentApparati {
     public void audit(){
         System.out.println("Butin Tehsil sistemine nezaret edilir");
     }

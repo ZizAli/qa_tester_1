@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package evvelkidersler;
 
 public class Java_Basics {
     public static void main(String[] args) {
