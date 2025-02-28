@@ -7,7 +7,7 @@ public class Main {
         Seher s = new Seher();
         Rayon r = new Rayon();
         o.ehali();
-        k.ehali();
+        k.hereket();
         s.ehali();
         r.ehali();
     }
