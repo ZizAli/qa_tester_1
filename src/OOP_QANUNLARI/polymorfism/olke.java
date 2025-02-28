@@ -6,5 +6,5 @@ class Olke {
         System.out.println("Olke ehalisinin sayi 10 milyonu kecmisdir");
 
     }
-
+public void move(){}
 }
