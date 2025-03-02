@@ -18,39 +18,62 @@ calculator("sum",numbers);
 7 (because of sum)
  */
 
-//Task2.1
-
-//public class Calculator{
-//    public static double calculator(int[] regem){
-//        int cavab =1;
-//        for(int r:regem){
-//            cavab *= r;
-//            if (cavab ==0){ return 0; }
+//public class Calculator {
+//    public static void main(String[] args) {
+//        int [] n = {2,8,9,4,1};
+//        int a = n.length;
+//        int sum = 0;
+//
+//        for (int i =0; i<a; i++ ){
+//            sum += n[i];
 //        }
-//        return cavab;
+//        System.out.println("Sum of elements array: " + sum);
+//
 //
 //    }
-//
+//}
+//public class Calculator {
 //    public static void main(String[] args) {
-//        int [] regem = {1,4,0,7,9};
-//        System.out.println(calculator(regem));
+//        int [] n = {2,8,9,4,1};
+//        int a = n.length;
+//        int subs = 0;
+//
+//        for (int i =0; i<a; i++ ){
+//            subs -= n[i];
+//        }
+//        System.out.println("Substraction of elements array: " + subs);
+//
+//
 //    }
 //}
 
-//Task2.2
-public class Calculator{
-    public static double calculator(int[] regem){
-        int cavab =0;
-        for(int r:regem){
-            cavab += r;
-            if (cavab ==0){ return 0; }
-        }
-        return cavab;
-
-    }
-
+//public class Calculator {
+//    public static void main(String[] args) {
+//        int [] n = {2,8,9,4,0};
+//        int a = n.length;
+//        int div = 1;
+//
+//        for (int i =0; i<a; i++ ){
+//            div *= n[i];
+//        }
+//        System.out.println("Divaded of elements array: " + div);
+//
+//
+//    }
+//}
+public class Calculator {
     public static void main(String[] args) {
-        int [] regem = {1,4,0,7,9};
-        System.out.println(calculator(regem));
+        double[] num = {10, 2, 5, 9};
+
+        double n = num[0];
+        for (int i = 1; i < num.length; i++) {
+            if (num[i] != 0) {
+                n /= num[i];
+            } else {
+                System.out.println("Cannot divide by zero!");
+                return;
+            }
+        }
+        System.out.println("Dvide of the numbers: " + n);
     }
 }
