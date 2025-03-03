@@ -19,15 +19,15 @@ public class Dog {
         this.name = name;
         this.quantity = quantity;
     }
-    Integer getQuantity(){
+    public int getQuantity(){
         return this.quantity;
     }
 
-    String getName() {
+    public String getName() {
         return this.name;
     }
 
-    String getColor() {
+    public String getColor() {
         return this.color;
     }
 
