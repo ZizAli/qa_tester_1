@@ -2,7 +2,7 @@ package mart_16;
 
 import java.util.Scanner;
 
-public class new_reg {
+public class Register {
     public static String upperLowercase(String word) {
         StringBuilder formattedString = new StringBuilder();
         boolean capitalize = true;
@@ -14,20 +14,11 @@ public class new_reg {
             } else {
                 formattedString.append(capitalize ? Character.toUpperCase(c) : Character.toLowerCase(c));
                 capitalize = false;
-
-//                if (capitalize) {
-//                    formattedString.append(Character.toUpperCase(c));
-//                } else {
-//                    formattedString.append(Character.toLowerCase(c));
-//                }
-
-
             }
         }
 
         return formattedString.toString();
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
